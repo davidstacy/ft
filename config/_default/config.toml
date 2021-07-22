@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://fullthrottle.cloud"
 title = "Full Throttle Cloud"
 theme = "hugo-theme-bootstrap"
 copyright = "Copyright © 2016-{year} Razon Yang. All Rights Reserved."
