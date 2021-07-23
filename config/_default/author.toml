@@ -1,6 +1,0 @@
-name = "David Stacy"
-# avatar = "images/profile.png" # Avatar image. Default to "images/profile.webp".
-bio = "Cloud Management Consultant"
-company = "Null"
-location = "Earth"
-# about = "https://domain.tld" # The external about page. The internal about page will be used if not set.
