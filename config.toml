@@ -46,15 +46,15 @@ placeholder = ""
 # the root directory of your blog using a format like `name = '<svg>'`
 [[params.social]]
 name = "github"  
-url = "https://github.com/mivinci"
+url = "https://github.com/davidstacy"
 svg = ""
 [[params.social]]
 name = "linkedin"
-url = "https://linkedin/in/leonard-mivinci-63895317a"
+url = "https://linkedin/in/davidstacy/"
 svg = ""
 [[params.social]]
 name = "twitter"
-url = "https://twitter.com/Leonard14733745"
+url = ""
 svg = ""
 [[params.social]]
 name = "rss"
