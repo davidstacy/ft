@@ -1,58 +1,13 @@
 +++
 author = "David Stacy"
-title = "A Cloud Operating System?"
+title = "Sorry, Managing Cloud is Hard"
 date = "2021-07-18T10:52:59+08:00"
-description = "Can we make public cloud easy to manage?"
+description = "Looking for the easy button in Cloud Management"
 comment = true
 +++
 
-Any small, medium, or large enterprise contemplating the use of public
-cloud will need an operating system for that cloud.  Not an operating
-system for virtual servers in the cloud, we already have that, it’s
-called Linux (in various flavors).  Enterprises need an operating
-system for cloud resources that does what operating systems do for
-personal computers, connect all the hardware so applications can run.
+I've been trying to figure out how to make it easier to manage cloud environments for about five years now.  maybe longer.  There are two schools of thought.  One - anything at scale is hard, scale is hard, cloud at scale is hard too.  theres no shortcuts.  I hate this school, its too pessimistic.  But it feels right, sadly.
 
-But isn’t that the promise of Kubernetes and all of the other myriad
-of container + cloud platforms?  And yes, for all applications that
-can run in Kubernetes you can spin up a platform on any cloud and be
-fully ready to run.  But most enterprises have legacy apps, that can,
-and maybe should also move to the cloud.  Sometimes for good,
-sometimes until either retirement or they can be modernized.  What do
-we do with those?
+The other school of thought is that we just really havent figured it out yet, maybe theres a tool, technique or method that is so radically simple and easy that it changes whole industries yet.  Is this Kubernetes?  I think its what Kubernetes wants to be but its not quite there yet.  Kubernetes has issues.  We'll get to those in a future post.  Maybe.  Hopefully.
 
-In the late 90’s and up to the time of .Net, a Windows developer had
-several levels of Operating System calls to work with including INT
-21h for a virtual dos machine for legacy apps.  The Windows API had
-several levels of system calls and services, base calls, Win16, Win32.
-If you didn’t want to talk to those directly, you could use wrapper
-classes (now a higher level) such as MFC for C++ or the Windows
-Template Library, and Windows kept coming out with more including OLE,
-COM, and the .NET Framework.  All in the same system.  All
-applications using different API’s and wrappers could simultaneously
-operate side by side if they were well-behaved.
-
-The Operating System Analogy helps to remind us that a successful OS
-allowed legacy apps direct hardware level access to the CPU, any
-successful Cloud Operating System will need to allow existing
-applications direct access to the resources they need like virtual
-servers, databases of the relational variety, and block storage
-directly mounted to the virtual server, just like they were used to
-when the apps were first designed, coded and built.  Cloud Operating
-Systems should not leave these apps behind.
-
-A successful cloud OS will be multilane, and include paths for legacy
-applications, including three tier server-based apps, container-based
-apps, serverless, microservice architectures, and maybe some more we
-haven’t thought of yet.  The cloud operating system will be one
-system, including base services that all applications need, like calls
-for access to base resources such as compute, storage, data, network,
-and include in that system centralized, security, identity,
-networking, and include standard ways to package and deploy
-applications just like operating systems have installers.  In fact,
-most mature operating systems are easily installable and pre-loaded
-themselves, so perhaps our cloud operating system should be as well.
-
-We’re not there yet, in a future blog let’s talk about what actually
-happens today, and how close or far we are from this ideal, one system
-for all applications.
+This site is setup to explore which of these schools is correct, hopefully #2, and maybe we'll figure out what it would take to make the second school "real". and maybe then, once we know what we are looking for in a cloud management system.  Stay tuned!
