@@ -1,8 +1,10 @@
 {{ define "main" }}
 	<main>
-		<h2 class="mb-0">{{ .Site.Params.iam }} {{ .Site.Author.name }}</h2>
+		<!--
+                <h2 class="mb-0">{{ .Site.Params.iam }} {{ .Site.Author.name }}</h2>
 		<p>{{ .Site.Author.slogon }}</p>
 		<p>{{ .Site.Author.description | markdownify | safeHTML }}</p>
+                -->
 		{{ if eq .Paginator.PageNumber 1 }}
 		<h3>Recent Posts</h3>
 		{{ else }}

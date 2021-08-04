@@ -1,6 +1,6 @@
 baseURL = "http://fullthrottle.cloud"
 languageCode = "en-us"
-title = "Full Throttle"
+title = "Full Throttle | Cloud"
 copyright = "© Copyright notice"
 theme = "minima"
 paginate = 7
@@ -12,13 +12,13 @@ disqusShortname = "hugo-minima"
 # page of your blog.
 [author]
 name = "David Stacy"
-slogon = "Cloud Tinkerer"
-description = "If you are trying to figure out how to manage and simplify cloud environments this is the right place."
+slogon = "Cloud Mechanic"
+description = ""
 
 
 [params]
 # iam is the beginning words of your self-introduction.
-iam = "About "
+iam = ""
 # The subtitle will be shown after the title of your blog site
 #  in a format "title - subtitle".
 subtitle = ""
@@ -52,10 +52,10 @@ svg = ""
 name = "linkedin"
 url = "https://linkedin/in/davidstacy/"
 svg = ""
-[[params.social]]
-name = "twitter"
-url = ""
-svg = ""
+#[[params.social]]
+#name = "twitter"
+#url = ""
+#svg = ""
 [[params.social]]
 name = "rss"
 url = "/index.xml"
