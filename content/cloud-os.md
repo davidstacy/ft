@@ -1,7 +1,7 @@
 +++
 author = "David Stacy"
 title = "Sorry, Managing Cloud is Hard"
-date = "2021-07-18T10:52:59+08:00"
+date = "2021-08-03"
 description = "Looking for the easy button in Cloud Management"
 comment = true
 +++
