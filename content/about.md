@@ -5,8 +5,7 @@ type: single
 draft: true
 
 ---
-
-![](/headshot.jpeg)
+![](/dave.jpeg)
 
 David Stacy
 
@@ -17,5 +16,5 @@ Over the course of my career I have performed many roles and accomplished a few 
 * 2020: Hired, Developed and Built a team of 30 organized into multidiscipline squads to accelerate cloud migrations to AWS Managed Services.
 * 2014:  Ran the DevOps Infrastructure for Roadtrippers.com
 * 2011-2012:  Built a class 3 data center for Seapine.com.
-* 2003:  Learned to love vi and unix while running the ERP systems for Evenflo. 
+* 2003:  Learned to love vi and unix while running the ERP systems for Evenflo.
 * 1997:  Got a "paper" MCSE with very little real IT experience and somehow convinced Digineer to try me out as a junior sysadmin.
