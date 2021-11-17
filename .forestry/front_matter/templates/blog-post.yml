@@ -17,5 +17,3 @@ fields:
 - type: boolean
   name: comment
   label: comment
-pages:
-- content/gitops.md
