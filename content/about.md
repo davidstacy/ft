@@ -2,7 +2,6 @@
 title: About
 date: 2021-11-16T05:00:00+00:00
 type: single
-draft: true
 
 ---
 ![](/dave.jpeg)
