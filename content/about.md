@@ -5,6 +5,9 @@ type: single
 draft: true
 
 ---
+
+![](/headshot.jpeg)
+
 David Stacy
 
 Over the course of my career I have performed many roles and accomplished a few diverse things over time.
